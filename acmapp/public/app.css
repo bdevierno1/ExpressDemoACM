@@ -1,5 +1,6 @@
 body {
-    background: #0e0e0e;
+    background: #FFD90F;
+
 }
 
 body, html {
@@ -8,4 +9,31 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
     color: rgb(255,255,255);
     font-size: 1.2em;
+}
+h1 { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 125px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
+* {margin: 0; padding: 0;}
+ 
+div {
+  margin: 20px;
+}
+ 
+ul {
+  list-style-type: none;
+  width: 50%;
+}
+ 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+ 
+li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif, #111;
+}
+ 
+li {
+    color: #111; font-family: 'Georgia', sans-serif; font-size: 35px; letter-spacing: -1px; line-height: 1; text-align: center; }
+    * {margin: 0; padding: 0;}
 }

@@ -1,22 +1,11 @@
 <%- include ("partials/header") %>
-<h1>Rishi and Ben's App</h1>
-
-<form method="get" action="http://www.google.com/search">
-  <input type="text"   name="q" size="31"
-  maxlength="255" value="" />
-  <input type="submit" value="Google Search" />
-</form>
-
-
-<style>
-body {
-  background-image: url("https://source.unsplash.com/user/erondu/1600x900");
-}
-</style>
-<ul>
-    <li><%= random[0].quote %></li>
-    <li><%= random[0].character %></li>
-</ul>
+<h1>The <br/> Simpsons</h1>
+<div>
+  <ul>
+    <li>"<%= random[0].quote %>" </li>
+    <li> - <%= random[0].character %></li>
+  </ul>
+</div>
 <img src="<%= random[0].image %>">
 <%= Date();%>
 
